@@ -1,0 +1,70 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    position: sticky;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header_h3 {
+    font-size: 30px;
+    color: rgb(187, 185, 77);
+    text-decoration: line-through;
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(187, 185, 77);
+    font-size: 17px;
+}
+
+.cup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -300px;
+    right: -600px;
+    color: rgb(230, 227, 80);
+    z-index: 1000;
+}
+
+.monesy_photo_2 {
+    position: relative;
+    top: -200px;
+}
+
+.monesy_photo_1 {
+    position: relative;
+    top: 120px;
+}
+
+.winner_photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -200px;
+    top: 150px;
+    gap: 50px;
+}
